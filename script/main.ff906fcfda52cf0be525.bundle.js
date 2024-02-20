@@ -70,7 +70,7 @@
                             staticClass: "profile-pic"
                         }, [n("img", {
                             attrs: {
-                                src: "../images/profile.jpeg",
+                                src: t.profile.image,
                                 alt: "User"
                             }
                         })]), t._v(" "), n("div", {
@@ -143,7 +143,7 @@
                     render: !1,
                     routerView: {
                         name: "ocupação",
-                        to: "/ocupação"
+                        to: "/"
                     }
                 }),
                 watch: {
@@ -380,7 +380,7 @@
                     e = this._self._c || t;
                 return e("div", [e("div", {
                     staticClass: "break-heading"
-                }, [this._v("Publicações [" + this._s(this.publicações.length) + "]")]), this._v(" "), this._l(this.publicações, function(t) {
+                }, [this._v("Trabalhos publicados [" + this._s(this.publicações.length) + "]")]), this._v(" "), this._l(this.publicações, function(t) {
                     return e("card", {
                         key: t.key,
                         attrs: {
@@ -477,7 +477,7 @@
                     n = t._self._c || e;
                 return n("div", [t.formação ? n("span", [n("div", {
                     staticClass: "break-heading"
-                }, [t._v("Formação Principal [" + t._s(t.formação.length) + "]")]), t._v(" "), t._l(t.formação, function(t) {
+                }, [t._v("Formação [" + t._s(t.formação.length) + "]")]), t._v(" "), t._l(t.formação, function(t) {
                     return n("card", {
                         key: t.key,
                         attrs: {
@@ -486,7 +486,7 @@
                     })
                 })], 2) : t._e(), t._v(" "), t.courses ? n("span", [n("div", {
                     staticClass: "break-heading"
-                }, [t._v("Extensão [" + t._s(t.courses.length) + "]")]), t._v(" "), t._l(t.courses, function(t) {
+                }, [t._v("Online Cources [" + t._s(t.courses.length) + "]")]), t._v(" "), t._l(t.courses, function(t) {
                     return n("card", {
                         key: t.key,
                         attrs: {
@@ -619,7 +619,7 @@
                     e = this._self._c || t;
                 return e("div", [e("div", {
                     staticClass: "break-heading"
-                }, [this._v("Ocupação Atual [" + this._s(this.ocupação.length) + "]")]), this._v(" "), this._l(this.ocupação, function(t) {
+                }, [this._v("Work Experience [" + this._s(this.ocupação.length) + "]")]), this._v(" "), this._l(this.ocupação, function(t) {
                     return e("card", {
                         key: t.key,
                         attrs: {
@@ -631,7 +631,7 @@
             P = n(8);
         s.a.use(c.a);
         const M = [{
-            path: "/ocupação",
+            path: "/",
             name: "Ocupação",
             component: T
         }, {
