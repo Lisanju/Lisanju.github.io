@@ -142,7 +142,7 @@
                 data: () => ({
                     render: !1,
                     routerView: {
-                        name: "work",
+                        name: "ocupação",
                         to: "/"
                     }
                 }),
@@ -179,17 +179,17 @@
                         home: t.data.home,
                         profile: t.data.profile,
                         document: t.data.document,
-                        work: t.data.work,
-                        projects: t.data.projects,
-                        skills: t.data.skills,
-                        achievements: t.data.achievements,
-                        contributions: t.data.contributions,
+                        ocupação: t.data.ocupação,
+                        projetos: t.data.projetos,
+                        habilidades: t.data.habilidades,
+                        publicações: t.data.publicações,
+                        grupos: t.data.grupos,
                         communities: t.data.communities,
-                        education: t.data.education,
+                        formação: t.data.formação,
                         courses: t.data.courses,
                         blog: t.data.blog,
-                        talks: t.data.talks,
-                        links: t.data.links,
+                        apresentações: t.data.apresentações,
+                        interesses: t.data.interesses,
                         to: t.routerView.to
                     }
                 })], 1), t._v(" "), t._m(0)])], 1) : t._e()], 1)
@@ -370,7 +370,7 @@
                 }, [t._v("\n        #" + t._s(t.info.id) + "\n      ")])])]) : t._e()])])
             }, [], !1, null, null, null).exports,
             h = {
-                props: ["achievements"],
+                props: ["publicações"],
                 components: {
                     Card: m
                 }
@@ -380,7 +380,7 @@
                     e = this._self._c || t;
                 return e("div", [e("div", {
                     staticClass: "break-heading"
-                }, [this._v("Achievements [" + this._s(this.achievements.length) + "]")]), this._v(" "), this._l(this.achievements, function(t) {
+                }, [this._v("Publicações [" + this._s(this.publicações.length) + "]")]), this._v(" "), this._l(this.publicações, function(t) {
                     return e("card", {
                         key: t.key,
                         attrs: {
@@ -432,7 +432,7 @@
                 }, [t._v("\n          " + t._s(t.info.timeline) + "\n      ")]) : t._e()])])])
             }, [], !1, null, null, null).exports,
             C = {
-                props: ["contributions", "communities"],
+                props: ["grupos", "communities"],
                 components: {
                     SmallCard: b
                 }
@@ -443,9 +443,9 @@
                     n = t._self._c || e;
                 return n("div", [n("div", {
                     staticClass: "break-heading"
-                }, [t._v("OpenSource Contributions [" + t._s(t.contributions.length) + "]")]), t._v(" "), n("div", {
+                }, [t._v("Grupos de Extensão[" + t._s(t.grupos.length) + "]")]), t._v(" "), n("div", {
                     staticClass: "small-card-holder"
-                }, t._l(t.contributions, function(t) {
+                }, t._l(t.grupos, function(t) {
                     return n("SmallCard", {
                         key: t.key,
                         attrs: {
@@ -466,7 +466,7 @@
                 }), 1)])
             }, [], !1, null, null, null).exports,
             g = {
-                props: ["education", "courses"],
+                props: ["formação", "courses"],
                 components: {
                     Card: m
                 }
@@ -475,9 +475,9 @@
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
-                return n("div", [t.education ? n("span", [n("div", {
+                return n("div", [t.formação ? n("span", [n("div", {
                     staticClass: "break-heading"
-                }, [t._v("Formação Principal [" + t._s(t.education.length) + "]")]), t._v(" "), t._l(t.education, function(t) {
+                }, [t._v("Formação Principal [" + t._s(t.formação.length) + "]")]), t._v(" "), t._l(t.formação, function(t) {
                     return n("card", {
                         key: t.key,
                         attrs: {
@@ -496,7 +496,7 @@
                 })], 2) : t._e()])
             }, [], !1, null, null, null).exports,
             w = {
-                props: ["links"],
+                props: ["interesses"],
                 components: {
                     SmallCard: b
                 }
@@ -506,9 +506,9 @@
                     e = this._self._c || t;
                 return e("div", [e("div", {
                     staticClass: "break-heading"
-                }, [this._v("Links [" + this._s(this.links.length) + "]")]), this._v(" "), e("div", {
+                }, [this._v("Interesses [" + this._s(this.interesses.length) + "]")]), this._v(" "), e("div", {
                     staticClass: "small-card-holder"
-                }, this._l(this.links, function(t) {
+                }, this._l(this.interesses, function(t) {
                     return e("SmallCard", {
                         key: t.key,
                         attrs: {
@@ -518,7 +518,7 @@
                 }), 1)])
             }, [], !1, null, null, null).exports,
             S = {
-                props: ["projects"],
+                props: ["projetos"],
                 components: {
                     Card: m
                 }
@@ -528,7 +528,7 @@
                     e = this._self._c || t;
                 return e("div", [e("div", {
                     staticClass: "break-heading"
-                }, [this._v("Projects [" + this._s(this.projects.length) + "]")]), this._v(" "), this._l(this.projects, function(t) {
+                }, [this._v("Projetos [" + this._s(this.projetos.length) + "]")]), this._v(" "), this._l(this.projetos, function(t) {
                     return e("card", {
                         key: t.key,
                         attrs: {
@@ -549,7 +549,7 @@
                 }
             },
             A = {
-                props: ["skills"],
+                props: ["habilidades"],
                 components: {
                     SkillBar: Object(a.a)(E, function() {
                         var t = this,
@@ -576,12 +576,12 @@
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
-                return n("div", t._l(t.skills.data, function(e, s) {
+                return n("div", t._l(t.habilidades.data, function(e, s) {
                     return n("SkillBar", {
                         key: e.name,
                         attrs: {
-                            color: t.skills.color,
-                            title: t.skills.title,
+                            color: t.habilidades.color,
+                            title: t.habilidades.title,
                             value: e,
                             index: s
                         }
@@ -589,7 +589,7 @@
                 }), 1)
             }, [], !1, null, null, null).exports,
             $ = {
-                props: ["talks"],
+                props: ["apresentações"],
                 components: {
                     Card: m
                 }
@@ -599,7 +599,7 @@
                     e = this._self._c || t;
                 return e("div", [e("div", {
                     staticClass: "break-heading"
-                }, [this._v("Apresentações de Trabalho [" + this._s(this.talks.length) + "]")]), this._v(" "), this._l(this.talks, function(t) {
+                }, [this._v("Apresentações de Trabalho [" + this._s(this.apresentações.length) + "]")]), this._v(" "), this._l(this.apresentações, function(t) {
                     return e("card", {
                         key: t.key,
                         attrs: {
@@ -609,7 +609,7 @@
                 })], 2)
             }, [], !1, null, null, null).exports,
             L = {
-                props: ["work"],
+                props: ["ocupação"],
                 components: {
                     Card: m
                 }
@@ -619,7 +619,7 @@
                     e = this._self._c || t;
                 return e("div", [e("div", {
                     staticClass: "break-heading"
-                }, [this._v("Ocupação Atual [" + this._s(this.work.length) + "]")]), this._v(" "), this._l(this.work, function(t) {
+                }, [this._v("Ocupação Atual [" + this._s(this.ocupação.length) + "]")]), this._v(" "), this._l(this.ocupação, function(t) {
                     return e("card", {
                         key: t.key,
                         attrs: {
@@ -635,7 +635,7 @@
             name: "Ocupação",
             component: T
         }, {
-            path: "/achievements",
+            path: "/publicações",
             name: "Publicações",
             component: v
         }, {
@@ -643,27 +643,27 @@
             name: "Blog",
             component: f
         }, {
-            path: "/contributions",
+            path: "/grupos",
             name: "Grupos",
             component: k
         }, {
-            path: "/education",
+            path: "/formação",
             name: "Formação",
             component: y
         }, {
-            path: "/links",
-            name: "Pesquisa",
+            path: "/interesses",
+            name: "Interesses",
             component: j
         }, {
-            path: "/projects",
+            path: "/projetos",
             name: "Projetos",
             component: x
         }, {
-            path: "/skills",
+            path: "/habilidades",
             name: "Habilidades",
             component: O
         }, {
-            path: "/talks",
+            path: "/apresentações",
             name: "Apresentações",
             component: q
         }, {
