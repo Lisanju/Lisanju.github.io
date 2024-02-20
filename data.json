@@ -114,7 +114,7 @@
     "name": "Elisa Anju Lardapide",
     "image": "https://drive.google.com/file/d/1LkPWMipTzkVe14CpzfrvDtA7yDrN_XKJ/view?usp=sharing",
     "domains": "Semanticista | Linguista Teórica",
-    "vision": "「This sentence is false」",
+    "vision": "「The following sentence is true. The preceding sentence is false.」",
     "url": "https://lisanju.github.io",
     "address": {
         "@type": "PostalAddress",
@@ -145,16 +145,16 @@
       "icon": "fas fa-file",
       "label": "Currículo Lattes"
     }, {
-      "name": "blog",
-      "url": "https://www.instagram.com/lis_anju/",
-      "icon": "fas fa-user",
-      "label": "Instagram"
-    },
-     {
       "name": "email",
       "url": "lisanju.contato@gmail.com",
       "icon": "fas fa-inbox",
       "label": "lisanju.contato@gmail.com"
+    },
+     {
+      "name": "instagram",
+      "url": "https://www.instagram.com/lis_anju/",
+      "icon": "fas fa-instagram",
+      "label": "Instagram"
     }, {
       "name": "github",
       "url": "https://github.com/Lisanju",
@@ -185,16 +185,16 @@
   "projects": [{
       "id": 24,
       "key": "pr24",
-      "title": "Project Title",
-      "url": "#",
+      "title": "GEOki Jiten: dicionário bilíngue Português Brasileiro ↔️ Okinawano",
+      "url": "https://github.com/Lisanju/okinawa-go-jiten",
       "productType": "IOT/Dashboard [Private]",
-      "timeline": "05/2019",
+      "timeline": "12/2023",
       "tag": [
-        "AWS",
-        "NodeJS",
-        "Orange Pi Zero 256MB"
+        "Okinawa",
+        "Dicionário",
+        "Lexicografia"
       ],
-      "about": "About Title"
+      "about": "Implementação de uma página web que funciona como um dicionário bilíngue do português brasileiro para o okinawano com sistema de busca"
     }
   ],
   "achievements": [{
@@ -222,81 +222,83 @@
   "talks": [{
     "id": 1,
     "key": "ta1",
-    "title": "Everything you should know about Genetic Algorithms",
-    "url": "https://youtu.be/GBD_fTbvVjQ",
-    "subtitle": "Pydata Delhi - 2019",
-    "timeline": "19/01/2019"
+    "title": "LARDAPIDE, Elisa. I Webinário de Estudos Okinawanos, Universidade de São Paulo. 2023.",
+    "url": "https://www.youtube.com/live/LcEzrdJsmGc?si=ieVLvBTKrAH03p5R",
+    "subtitle": "Semântica de 'sozinho': uma descrição do okinawano e suas contrapartes.",
+    "timeline": "2023"
+  }, {
+    "id": 2,
+    "key": "ta2",
+    "title": "LARDAPIDE, Elisa. XVI Seminário de Pesquisas da Pós-Graduação em Linguística, Universidade Federal de São Carlos. 2023.",
+    "url": "https://www.splin.ufscar.br",
+    "subtitle": "Semântica de 'sozinho': uma investigação sobre modificação e (anti-)comitatividade.",
+    "timeline": "2023"
+  }, {
+    "id": 3,
+    "key": "ta3",
+    "title": "LARDAPIDE, Elisa. XXVI Semana de Letras e Linguística, Universidade Federal de São Carlos. 2023.",
+    "url": "https://jolesel2023.wixsite.com/jolesel2023",
+    "subtitle": "Sobre a semântica de 'sozinho': modificação, comitatividade e exclusivos.",
+    "timeline": "2023"
   }],
   "education": [{
     "id": 5,
     "key": "ed5",
-    "institute": "ABC University",
-    "url": "#",
-    "level": "Bachelor of technology in computer science",
-    "timeline": "05/2016 - Present",
+    "institute": "Universidade Federal de São Carlos",
+    "url": "https://www.prograd.ufscar.br/cursos/cursos-oferecidos-1/linguistica/linguistica",
+    "level": "Bacharelado em Linguística",
+    "timeline": "08/2021 - 12/2024",
     "coursework": {
-      "Semester 1": [
-        "Basic Engineering - I",
-        "Biology for Engineers",
-        "Principles of Environmental Sciences",
-        "Mathematics - I",
-        "Material Science"
+      "Semestre 1": [
+        "Introdução aos Estudos Linguísticos",
+        "Linguagem, Sociedade e História",
+        "Políticas Linguísticas",
+        "Fonética e Fonologia",
+        "Laboratório I - Fonética e Fonologia"
       ],
-      "Semester 2": [
-        "Digital Computer Fundamentals",
-        "Programming in C",
-        "Chemistry",
-        "Basic Engineering - II",
-        "Mathematics II",
-        "Engineering Graphics",
-        "Physics"
+      "Semestre 2": [
+        "Análise do Discurso",
+        "Fundamentos da Teoria Semiótica",
+        "Epistemologia da Linguística",
+        "Morfologia",
+        "Laboratório II - Morfologia"
       ],
-      "Semester 3": [
-        "Data Structures Using C++",
-        "Design And Analysis Of Algorithms",
-        "Microprocessor And Interfacing",
-        "Computer Organization And Architecture",
-        "French language – I",
-        "Mathematics III"
+      "Semestre 3": [
+        "Mudança e Variação Linguística",
+        "Linguística no Brasil",
+        "Produção de Texto I",
+        "Sintaxe",
+        "Laboratório III - Sintaxe"
       ],
-      "Semester 4": [
-        "Principles of Programming languages",
-        "Theory Of Computation",
-        "Operating Systems",
-        "Java Programming",
-        "Probability And Queuing Theory"
+      "Semestre 4": [
+        "Linguagem e Oralidade",
+        "Linguagem e Cognição",
+        "Produção de Texto II",
+        "Semântica",
+        "Laboratório IV - Semântica"
       ],
-      "Semester 5": [
-        "Compliler Design",
-        "Computer Networks",
-        "Operations Research Techniques",
-        "Soft Computing",
-        "Principles of Communication"
+      "Semestre 5": [
+        "Linguagem e Discurso",
+        "Estudos Léxicos",
+        "Pragmática",
+        "Enunciação",
+        "Laboratório V - Enunciação"
       ],
-      "Semester 6": [
-        "Artificial Intelligence & Expert Systems",
-        "Advance Database",
-        "Database Management Systems",
-        "Logic For Computer Science",
-        "Object Oriented Analysis & Design"
-      ]
-    }
-  }, {
-    "id": 4,
-    "key": "ed4",
-    "institute": "XYZ School",
-    "url": "http://XYZ.in/",
-    "level": "High school",
-    "timeline": "04/2012 - 04/2016",
-    "coursework": {
-      "activities": [
-        "2012 | The green olympiad"
+      "Semestre 6": [
+        "Texto: Produção e Circulação",
+        "Laboratório VI - Ênfase em PLN",
+        "Laboratório VI - Ênfase em Discurso",
+        "Laboratório VI - Ênfase em Meios e Materiais Instrucionais"
       ],
-      "achievements": [
-        "2013 | 2nd | Inter school festival"
+      "Semestre 7": [
+        "TCC 1",
+        "Estágio 1",
+        "Laboratório VII - Ênfase em PLN"
       ],
-      "awards": [
-        "2014-2015 | Excellence in Dramatics"
+      "Semestre 8": [
+        "TCC 2",
+        "Estágio 2",
+        "Laboratório VIII - Ênfase em PLN"
       ]
     }
   }
@@ -304,11 +306,11 @@
   "courses": [{
     "id": 1,
     "key": "co1",
-    "title": "Design Thinking for Innovation",
-    "url": "https://www.coursera.org/learn/uva-darden-design-thinking-innovation",
-    "from": "Coursera - University of Virginia",
-    "timeline": "03/2017",
-    "about": "<ul> <li > Learned about the application of Design Thinking for Innovation. </li> <li > Explored methods to find out new ideas using current data. </li> <li > Possibility - driven, human - centred and option - focused approach. </li></ul>",
+    "title": "Linguagem e Processos Cognitivos - Psicolinguística",
+    "url": "https://www.psicoling.thiagomotta.net",
+    "from": "Universidade Estadual de Campinas",
+    "timeline": "04/2021",
+    "about": "<ul> <li > Estudo introdutório em Psicolinguística. </li> <li > Explorei tópicos sobre cognição e linguagem. </li> <li > Estudo de Sensação, Percepção e Processamento cognitivo. </li></ul>",
     "complete": true
   }],
   "contributions": [{
@@ -318,193 +320,73 @@
   "communities": [{
       "id": 1,
       "key": "cm1",
-      "title": "PyData - Delhi",
-      "url": "#",
-      "timeline": "2017 - Present"
-    }  ],
-  "links": [{
-    "key": "li11",
-    "url": "https://github.com/Elon musk",
-    "icon": "fab fa-github",
-    "title": "github/Elon musk"
-  }, {
-    "key": "li10",
-    "url": "https://www.linkedin.com/in/Elon musk/",
-    "icon": "fab fa-linkedin-in",
-    "title": "linkedin/in/Elon musk"
-  }, {
-    "key": "li9",
-    "url": "https://twitter.com/Elon musk",
-    "icon": "fab fa-twitter",
-    "title": "twitter/Elon musk"
-  }, {
-    "key": "li8",
-    "url": "https://hackerrank.com/Elon musk",
-    "icon": "fab fa-hackerrank",
-    "title": "hackerrank/Elon musk"
-  }, {
-    "key": "li7",
-    "name": "reddit",
-    "url": "https://www.reddit.com/user/Elon musk/",
-    "icon": "fab fa-reddit-alien",
-    "title": "reddit/user/Elon musk"
-  }, {
-    "key": "li6",
-    "name": "hackerearth",
-    "url": "https://www.hackerearth.com/@Elon musk",
-    "icon": "fas fa-h-square",
-    "title": "hackerearth/@Elon musk"
-  }, {
-    "key": "li5",
-    "name": "y_combinator",
-    "url": "https://news.ycombinator.com/user?id=Elon musk",
-    "icon": "fab fa-hacker-news",
-    "title": "news.ycombinator/user?id=Elon musk"
-  }, {
-    "key": "li4",
-    "name": "facebook",
-    "url": "https://facebook.com/Elon musk",
-    "icon": "fab fa-facebook",
-    "title": "facebook/Elon musk"
-  }, {
-    "key": "li3",
-    "name": "instagram",
-    "url": "https://www.instagram.com/Elon musk/",
-    "icon": "fab fa-instagram",
-    "title": "Instagram/@Elon musk"
-  }, {
-    "key": "li2",
-    "name": "youtube",
-    "url": "https://www.youtube.com/channel/xxxxxxxxxxxxxxxx",
-    "icon": "fab fa-youtube",
-    "title": "youtube/channel/xxxxxxxxxxxx"
-  }, {
-    "key": "li1",
-    "name": "medium",
-    "url": "https://medium.com/@Elon musk",
-    "icon": "fab fa-medium-m",
-    "title": "medium/@Elon musk"
-  }, {
-    "key": "li12",
-    "title": "trello/Elon musk",
-    "url": "https://trello.com/Elon musk",
-    "icon": "fab fa-trello"
-  }, {
-    "key": "li13",
-    "title": "stackoverflow/cv/Elon musk",
-    "url": "https://stackoverflow.com/cv/Elon musk",
-    "icon": "fab fa-stack-overflow"
-  }, {
-    "key": "li14",
-    "title": "f6s/Elon musk",
-    "url": "https://www.f6s.com/Elon musk/",
-    "icon": "far fa-circle"
-  }, {
-    "key": "li15",
-    "title": "npmjs/~Elon musk",
-    "url": "https://www.npmjs.com/~Elon musk",
-    "icon": "fab fa-npm"
-  }, {
-    "key": "li16",
-    "title": "slides/Elon musk",
-    "url": "https://slides.com/Elon musk",
-    "icon": "far fa-circle"
-  }, {
-    "key": "li17",
-    "title": "meetup/members/238959535/",
-    "url": "https://www.meetup.com/members/238959535/",
-    "icon": "fab fa-meetup"
-  }, {
-    "key": "li18",
-    "title": "goodreads/Elon musk",
-    "url": "https://www.goodreads.com/Elon musk",
-    "icon": "fab fa-goodreads"
-  }, {
-    "key": "li19",
-    "title": "spotify/user/dwciskg3wo1c3owwgehc0jktm",
-    "url": "https://open.spotify.com/user/dwciskg3wo1c3owwgehc0jktm",
-    "icon": "fab fa-spotify"
-  },{
-    "key": "li20",
-    "title": "kaggle/Elon musk",
-    "url": "https://www.kaggle.com/Elon musk",
-    "icon": "fab fa-kaggle"
-  },{
-    "key": "li21",
-    "title": "codechef/users/Elon musk",
-    "url": "https://www.codechef.com/users/Elon musk",
-    "icon": "far fa-circle"
-  },{
-    "key": "li22",
-    "title": "hackster/Elon musk",
-    "url": "https://www.hackster.io/Elon musk",
-    "icon": "far fa-circle"
-  },{
-    "key": "li23",
-    "title": "keybase/Elon musk",
-    "url": "https://keybase.io/Elon musk",
-    "icon": "far fa-circle"
-  },{
-    "key": "li24",
-    "title":"hackerone/Elon musk",
-    "url": "https://hackerone.com/Elon musk",
-    "icon": "far fa-circle"
-  },{
-    "key": "li25",
-    "title":"tumblr/Elon musk",
-    "url": "https://Elon musk.tumblr.com",
-    "icon": "fab fa-tumblr"
-  },{
-    "key": "li26",
-    "title": "angel/Elon musk",
-    "url": "https://angel.co/Elon musk",
-    "icon": "fab fa-angellist"
-  },{
-    "key": "li27",
-    "title": "gitlab/Elon musk",
-    "url": "https://gitlab.com/Elon musk",
-    "icon": "fab fa-gitlab"
-  },{
-    "key": "li28",
-    "title": "dev.to/Elon musk",
-    "url": "https://dev.to/Elon musk",
-    "icon": "fab fa-dev"
-  },{
-    "key": "li29",
-    "title": "hackathon.io/Elon musk",
-    "url": "https://www.hackathon.io/Elon musk",
-    "icon": "far fa-circle"
-  }],
+      "title": "Grupo de Pesquisa em Semântica, Sintaxe e Pragmática Formais (GeSER-UFSCar)",
+      "url": "https://www.geser.ufscar.br",
+      "timeline": "2022 - Atualmente"
+    }, {
+      "id": 2,
+      "key": "cm2",
+      "title": "A Expressão da Quantificação nas Línguas Naturais (UFSC)",
+      "url": "http://dgp.cnpq.br/dgp/espelhogrupo/4812174023807863",
+      "timeline": "2023 - Atualmente"
+    }, {
+      "id": 3,
+      "key": "cm3",
+      "title": "Grupo de Estudos Okinawanos (GEOki-USP)",
+      "url": "https://www.geoki.site",
+      "timeline": "2022 - Atualmente"
+    }
+  ],
   "skills": {
     "color": ["", "", "", "", "", "", "", "" ,""],
-    "title": ["Frontend", "Backend", "Framework/Library", "DevOps", "Database", "Software/tool", "Mobile", "Hardware" ,"Soft Skills"],
+    "title": ["Análise Linguística", "Programação e Tecnologias", "Línguas"],
     "data": {
       "0": [{
-        "name": "JavaScript",
+        "name": "Semântica Formal",
+        "percent": "90"
+      }, {
+        "name": "Pragmática Formal",
+        "percent": "90"
+      }, {
+        "name": "Interface semântico-pragmática",
+        "percent": "90"
+      }, {
+        "name": "Interface semântico-sintática",
         "percent": "90"
       }],
       "1": [ {
-        "name": "C/C++",
+        "name": "Python",
         "percent": "75"
+      }, {
+        "name": "R",
+        "percent": "90"
+      }, {
+        "name": "C",
+        "percent": "90"
+      }, {
+        "name": "JavaScript",
+        "percent": "90"
+      }, {
+        "name": "HTML5 & CSS3",
+        "percent": "90"
+      }, {
+        "name": "AJAX",
+        "percent": "90"
+      }, {
+        "name": "jQuery",
+        "percent": "90"
+      }, {
+        "name": "Prolog",
+        "percent": "90"
       }],"2": [{
-        "name": "Ionic",
+        "name": "Português Brasileiro",
         "percent": "30"
-      }],
-      "3": [{
-        "name": "Linux",
-        "percent": "60"
-      }],
-      "4": [{
-        "name": "MySql",
-        "percent": "80"
-      }],
-      "5": [{
-        "name": "micro",
-        "percent": "30"
-        }],
-      "7": [{
-          "name": "Raspberry Pi",
-          "percent": "30"
+      }, {
+        "name": "Inglês",
+        "percent": "90"
+      }, {
+        "name": "Japonês",
+        "percent": "90"
       }]
     },
     "//": [{
