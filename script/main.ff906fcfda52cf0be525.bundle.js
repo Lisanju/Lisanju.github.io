@@ -70,7 +70,7 @@
                             staticClass: "profile-pic"
                         }, [n("img", {
                             attrs: {
-                                src: t.profile.image,
+                                src: "../images/profile.jpeg",
                                 alt: "User"
                             }
                         })]), t._v(" "), n("div", {
