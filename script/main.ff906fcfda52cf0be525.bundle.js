@@ -164,7 +164,7 @@
                     attrs: {
                         profile: t.data.profile
                     }
-                }) : n("div", [t._v("\n    Loading...\n  ")]), t._v(" "), t.render ? n("div", {
+                }) : n("div", [t._v("\n    Carregando...\n  ")]), t._v(" "), t.render ? n("div", {
                     staticClass: "view-body"
                 }, [n("Menu", {
                     attrs: {
@@ -631,7 +631,7 @@
             P = n(8);
         s.a.use(c.a);
         const M = [{
-            path: "/",
+            path: "/ocupação",
             name: "Ocupação",
             component: T
         }, {
