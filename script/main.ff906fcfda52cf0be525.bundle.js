@@ -198,7 +198,7 @@
                     e = this._self._c || t;
                 return e("div", {
                     staticClass: "footer"
-                }, [this._v("\n            Designed and Developed by "), e("a", {
+                }, [this._v("\n            Por "), e("a", {
                     attrs: {
                         href: "https://ramantehlan.github.io"
                     }
