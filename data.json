@@ -16,7 +16,7 @@
     "title": "Elisa Anju Lardapide",
     "type": "website",
     "url": "https://lisanju.github.io",
-    "image": "https://drive.google.com/file/d/1LkPWMipTzkVe14CpzfrvDtA7yDrN_XKJ/view?usp=sharing"
+    "image": "images/profile.jpeg"
   },
   "themes":[
  {
@@ -106,13 +106,13 @@
     "icon": "fa fa-link"
   }],
   "home": {
-    "title": "Hello There!",
-    "body": "Body",
-    "signature": "Regards <br> <b>Elon musk</b>"
+    "title": "Seja bem-vindo!",
+    "body": "",
+    "signature": "- <br> <b>Elisa Anju Lardapide</b>"
   },
   "profile": {
     "name": "Elisa Anju Lardapide",
-    "image": "https://drive.google.com/file/d/1LkPWMipTzkVe14CpzfrvDtA7yDrN_XKJ/view?usp=sharing",
+    "image": "images/profile.jpeg",
     "domains": "Semanticista | Linguista Teórica",
     "vision": "「The next sentence is true. The previous sentence is false.」",
     "url": "https://lisanju.github.io",
