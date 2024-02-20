@@ -65,28 +65,28 @@
     "display": true,
     "icon": "fas fa-briefcase"
   }, {
-    "title": "skills",
-    "to": "/skills",
+    "title": "habilidades",
+    "to": "/habilidades",
     "display": true,
     "icon": "fas fa-tools"
   }, {
-    "title": "projects",
-    "to": "/projects",
+    "title": "projetos",
+    "to": "/projetos",
     "display": true,
     "icon": "fas fa-project-diagram"
   }, {
-    "title": "achievements",
-    "to": "/achievements",
+    "title": "publicações",
+    "to": "/publicações",
     "display": true,
     "icon": "fas fa-award"
   }, {
-    "title": "contributions",
-    "to": "/contributions",
+    "title": "grupos",
+    "to": "/grupos",
     "display": true,
     "icon": "fas fa-people-carry"
   }, {
-    "title": "education",
-    "to": "/education",
+    "title": "formação",
+    "to": "/formação",
     "display": true,
     "icon": "fa fa-graduation-cap"
   },{
@@ -95,13 +95,13 @@
     "display": false,
     "icon": "fas fa-star"
   }, {
-    "title": "talks",
-    "to": "/talks",
+    "title": "apresentações",
+    "to": "/apresentações",
     "display": true,
     "icon": "fas fa-microphone"
   }, {
-    "title": "links",
-    "to": "/links",
+    "title": "interesses",
+    "to": "/interesses",
     "display": true,
     "icon": "fa fa-link"
   }],
@@ -197,7 +197,7 @@
   }, {
     "id":7,
     "key": "wo7",
-    "companyName": "Estudando do Bacharelado em Linguística pela UFSCar",
+    "companyName": "Estudante do Bacharelado em Linguística pela UFSCar",
     "companyUrl": "https://www.dl.ufscar.br",
     "role":"Estudante",
     "location": "São Paulo, Brasil",
@@ -209,7 +209,7 @@
     ],
     "about": "Estudante do Bacharelado em Linguística pelo Departamento de Letras da Universidade Federal de São Carlos. Na universidade, participei de atividades de extensão voltadas para a educação e divulgação científica. Ministrei aulas de Gramática e Redação de Língua Portuguesa no 'Cursinho Pré-Vestibular Popular da UFSCar' e produzi o programa de rádio e podcast de divulgação/educação científica 'Mexendo com a Língua.' Por formação, sou especializada em Linguística Computacional e Formal. Desenvolvi projetos relacionados ao Processamento de Linguagem Natural (PLN), como Analisadores Discursivos por RST, Parsers Sintáticos implementados em Prolog e glossários conceituais WordNet para recursos linguísticos."
   }],
-  "projects": [{
+  "projetos": [{
       "id": 24,
       "key": "pr24",
       "title": "GEOki Jiten",
@@ -250,7 +250,7 @@
       "about": "Recurso linguístico em português brasileiro com dados de línguas rromanés."
     }
   ],
-  "achievements": [{
+  "publicações": [{
     "id": 1,
     "key": "ac1",
     "title": "LARDAPIDE, Elisa. BASSO, Renato. Sobre a semântica de 'sozinho': uma descrição de suas interpretações. 2024. (No prelo)",
@@ -286,10 +286,10 @@
     "subtitle": "",
     "timeline": ""
   }],
-  "talks": [{
+  "apresentações": [{
     "id": 1,
     "key": "ta1",
-    "title": "LARDAPIDE, Elisa. I Webinário de Estudos Okinawanos, Universidade de São Paulo. 2023.",
+    "title": "I Webinário de Estudos Okinawanos, Universidade de São Paulo. 2023.",
     "url": "https://www.youtube.com/live/LcEzrdJsmGc?si=ieVLvBTKrAH03p5R",
     "subtitle": "Apresentação do trabalho: Semântica de 'sozinho': uma descrição do okinawano e suas contrapartes.",
     "timeline": "2023"
@@ -308,7 +308,7 @@
     "subtitle": "Apresentação do trabalho: Sobre a semântica de 'sozinho': modificação, comitatividade e exclusivos.",
     "timeline": "2023"
   }],
-  "education": [{
+  "formação": [{
     "id": 5,
     "key": "ed5",
     "institute": "Bacharelado em Linguística pela Universidade Federal de São Carlos",
@@ -373,16 +373,43 @@
   "courses": [{
     "id": 1,
     "key": "co1",
-    "title": "Linguagem e Processos Cognitivos - Psicolinguística",
+    "title": "Extensão em Psicolinguística pela UNICAMP",
     "url": "https://www.psicoling.thiagomotta.net",
     "from": "Universidade Estadual de Campinas",
-    "timeline": "04/2021",
-    "about": "<ul> <li > Estudo introdutório em Psicolinguística. </li> <li > Explorei tópicos sobre Cognição e Linguagem. </li> <li > Estudo de Sensação, Percepção e Processamento cognitivo. </li></ul>",
+    "timeline": "04/2022",
+    "about": "<ul> <li > Estudo introdutório em Psicolinguística pela disciplina Linguagem e Processos Cognitivos. </li> <li > Explorei tópicos sobre Cognição e Linguagem. </li> <li > Estudo de Sensação, Percepção e Processamento cognitivo. </li></ul>",
+    "complete": true
+  }, {
+    "id": 2,
+    "key": "co2",
+    "title": "Extensão em Lógica pela UFSCar",
+    "url": "https://www.dfil.ufscar.br/-1",
+    "from": "Universidade Federal de São Carlos",
+    "timeline": "08/2022",
+    "about": "<ul> <li > Lógica moderna. </li> <li > Paradoxo do Falso e Paradoxo do Verdadeiro. </li> <li > Silogismos Aristotélicos. </li></ul>",
+    "complete": true
+  }, {
+    "id": 3,
+    "key": "co3",
+    "title": "Extensão em Filosofia da Biologia pela UFSCar",
+    "url": "https://www.biosc.ufscar.br",
+    "from": "Universidade Federal de São Carlos",
+    "timeline": "04/2023",
+    "about": "<ul> <li > Epistemologia da Biologia. </li> <li > Aristóteles, Lamarck e Darwin. </li> <li > Biologia enquanto Ciência. </li></ul>",
+    "complete": true
+  }, {
+    "id": 4,
+    "key": "co4",
+    "title": "Extensão em Introdução à Computação pela UFSCar",
+    "url": "https://site.dc.ufscar.br",
+    "from": "Universidade Federal de São Carlos",
+    "timeline": "04/2023",
+    "about": "<ul> <li > Algoritmos e Fluxogramas. </li> <li > Fundamentos de programação em Python. </li> <li > Computação básica. </li></ul>",
     "complete": true
   }],
-  "contributions": [{
-    "title": "Private",
-    "url": "https://github.com/yogdaan/suraksha/commits?author=Elon musk"
+  "grupos": [{
+    "title": "Cursinho Pré-vestibular da UFSCar (2022 - 2023)",
+    "url": "https://cursinho.faiufscar.com/#/"
   }],
   "communities": [{
       "id": 1,
@@ -404,7 +431,7 @@
       "timeline": "2022 - Atualmente"
     }
   ],
-  "skills": {
+  "habilidades": {
     "color": ["", "", "", "", "", "", "", "" ,""],
     "title": ["Teorias & Análises Linguísticas", "Programação & Tecnologias", "Línguas"],
     "data": {
