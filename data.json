@@ -170,17 +170,31 @@
   "work": [{
     "id":6,
     "key": "wo6",
-    "companyName": "companyName",
-    "companyUrl": "url",
-    "role":"Software Engineer Intern",
-    "location": "Delhi, India",
-    "timeline": "06/2019 - 9/2019",
+    "companyName": "FAPESP",
+    "companyUrl": "https://bv.fapesp.br/pt/pesquisador/726358/elisa-anju-britto-alves-rodrigues/",
+    "role":"Pesquisadora de bolsa de Iniciação Científica",
+    "location": "São Paulo, Brasil",
+    "timeline": "08/2023 - 08/2024",
     "tag": [
-      "Golang",
-      "NodeJS",
-      "Microservices"
+      "Ciência",
+      "Fapesp",
+      "Linguística"
     ],
-    "about": "About the work"
+    "about": "Pesquisadora pelo programa de bolsa de Iniciação Científica fomentada pela FAPESP."
+  }, {
+    "id":7,
+    "key": "wo7",
+    "companyName": "UFSCar",
+    "companyUrl": "https://www.dl.ufscar.br",
+    "role":"Estudante",
+    "location": "São Paulo, Brasil",
+    "timeline": "08/2021 - 12/2024",
+    "tag": [
+      "Ciência",
+      "UFSCar",
+      "Linguística"
+    ],
+    "about": "Estudante do Bacharelado em Linguística pelo Departamento de Letras da Universidade Federal de São Carlos."
   }],
   "projects": [{
       "id": 24,
@@ -194,7 +208,33 @@
         "Dicionário",
         "Lexicografia"
       ],
-      "about": "Implementação de uma página web que funciona como um dicionário bilíngue do português brasileiro para o okinawano com sistema de busca"
+      "about": "Implementação de uma página web que funciona como um dicionário bilíngue do português brasileiro para o okinawano com sistema de busca."
+    }, {
+      "id": 25,
+      "key": "pr25",
+      "title": "Montague Test: implementação semântica em Agda",
+      "url": "https://github.com/Lisanju/Montague-Test",
+      "productType": "IOT/Dashboard [Private]",
+      "timeline": "02/2024",
+      "tag": [
+        "Montague",
+        "Semântica",
+        "Implementação"
+      ],
+      "about": "Formalização semântica de sentenças pelo Teste de Montague implementada em Agda, inspirado em Zwanziger (2019)."
+    }, {
+      "id": 26,
+      "key": "pr26",
+      "title": "Romani-DT: recurso linguístico de línguas rromanés",
+      "url": "#",
+      "productType": "IOT/Dashboard [Private]",
+      "timeline": "01/2024",
+      "tag": [
+        "Romani",
+        "Database",
+        "RRomanés"
+      ],
+      "about": "Recurso linguístico em português brasileiro com dados de línguas rromanés."
     }
   ],
   "achievements": [{
