@@ -3,7 +3,7 @@
     "author": "Elisa Anju Lardapide",
     "title": "Elisa Anju Lardapide",
     "keywords": "Elisa Anju Lardapide Linguista Semanticista Desenvolvedora Pesquisadora Cientista Portfolio CV.",
-    "description": "Boas vindas ao meu site pessoal com portfolio acadêmico.",
+    "description": "Bem-vindos ao meu site pessoal com portfolio acadêmico.",
     "language": "Portuguese",
     "charset": "utf-8",
     "robots": "INDEX , FOLLOW",
@@ -114,7 +114,7 @@
     "name": "Elisa Anju Lardapide",
     "image": "https://drive.google.com/file/d/1LkPWMipTzkVe14CpzfrvDtA7yDrN_XKJ/view?usp=sharing",
     "domains": "Semanticista | Linguista Teórica",
-    "vision": "「The following sentence is true. The preceding sentence is false.」",
+    "vision": "「The next sentence is true. The previous sentence is false.」",
     "url": "https://lisanju.github.io",
     "address": {
         "@type": "PostalAddress",
@@ -134,9 +134,7 @@
     "nationality": "brazilian",
     "sameAs":[
       "https://www.linkedin.com/in/elisaanjurodrigues/",
-      "https://twitter.com/lis_anju",
       "https://github.com/Lisanju",
-      "",
       "https://www.instagram.com/lis_anju/"
     ],
     "link": [{
@@ -144,6 +142,21 @@
       "url": "http://lattes.cnpq.br/0674551249513442",
       "icon": "fas fa-file",
       "label": "Currículo Lattes"
+    }, {
+      "name": "researchgate",
+      "url": "https://www.researchgate.net/profile/Elisa-Anju-Rodrigues",
+      "icon": "fas fa-file",
+      "label": "ResearchGate"
+    }, {
+      "name": "orcid",
+      "url": "https://orcid.org/0000-0002-4817-5884",
+      "icon": "fas fa-file",
+      "label": "ORCID"
+    }, {
+      "name": "googlescholar",
+      "url": "https://scholar.google.com.br/citations?hl=pt-BR&user=RRVBdTcAAAAJ",
+      "icon": "fas fa-file",
+      "label": "Google Scholar"
     }, {
       "name": "email",
       "url": "lisanju.contato@gmail.com",
@@ -153,7 +166,7 @@
      {
       "name": "instagram",
       "url": "https://www.instagram.com/lis_anju/",
-      "icon": "fas fa-instagram",
+      "icon": "fas fa-user",
       "label": "Instagram"
     }, {
       "name": "github",
@@ -170,62 +183,62 @@
   "work": [{
     "id":6,
     "key": "wo6",
-    "companyName": "FAPESP",
+    "companyName": "Pesquisadora de bolsa de Iniciação Científica fomentada pela FAPESP",
     "companyUrl": "https://bv.fapesp.br/pt/pesquisador/726358/elisa-anju-britto-alves-rodrigues/",
-    "role":"Pesquisadora de bolsa de Iniciação Científica",
+    "role":"Pesquisadora",
     "location": "São Paulo, Brasil",
     "timeline": "08/2023 - 08/2024",
     "tag": [
-      "Ciência",
-      "Fapesp",
-      "Linguística"
+      "(Anti-)comitatividade",
+      "Semântica",
+      "Pragmática"
     ],
-    "about": "Pesquisadora pelo programa de bolsa de Iniciação Científica fomentada pela FAPESP."
+    "about": "Pesquisadora do projeto 'Semântica de 'sozinho': uma investigação sobre modificação e (anti-)comitatividade', com orientação do Prof. Dr. Renato Miguel Basso e com fomento da FAPESP."
   }, {
     "id":7,
     "key": "wo7",
-    "companyName": "UFSCar",
+    "companyName": "Estudando do Bacharelado em Linguística pela UFSCar",
     "companyUrl": "https://www.dl.ufscar.br",
     "role":"Estudante",
     "location": "São Paulo, Brasil",
     "timeline": "08/2021 - 12/2024",
     "tag": [
-      "Ciência",
+      "Bacharelado",
       "UFSCar",
       "Linguística"
     ],
-    "about": "Estudante do Bacharelado em Linguística pelo Departamento de Letras da Universidade Federal de São Carlos."
+    "about": "Estudante do Bacharelado em Linguística pelo Departamento de Letras da Universidade Federal de São Carlos. Na universidade, participei de atividades de extensão voltadas para a educação e divulgação científica. Ministrei aulas de Gramática e Redação de Língua Portuguesa no 'Cursinho Pré-Vestibular Popular da UFSCar' e produzi o programa de rádio e podcast de divulgação/educação científica 'Mexendo com a Língua.' Por formação, sou especializada em Linguística Computacional e Formal. Desenvolvi projetos relacionados ao Processamento de Linguagem Natural (PLN), como Analisadores Discursivos por RST, Parsers Sintáticos implementados em Prolog e glossários conceituais WordNet para recursos linguísticos."
   }],
   "projects": [{
       "id": 24,
       "key": "pr24",
-      "title": "GEOki Jiten: dicionário bilíngue Português Brasileiro ↔️ Okinawano",
+      "title": "GEOki Jiten",
       "url": "https://github.com/Lisanju/okinawa-go-jiten",
-      "productType": "IOT/Dashboard [Private]",
+      "productType": "Repositório GitHub",
       "timeline": "12/2023",
       "tag": [
-        "Okinawa",
-        "Dicionário",
+        "Web-Dicionário",
+        "Língua Okinawana",
         "Lexicografia"
       ],
       "about": "Implementação de uma página web que funciona como um dicionário bilíngue do português brasileiro para o okinawano com sistema de busca."
     }, {
       "id": 25,
       "key": "pr25",
-      "title": "Montague Test: implementação semântica em Agda",
+      "title": "Montague Test (Agda)",
       "url": "https://github.com/Lisanju/Montague-Test",
-      "productType": "IOT/Dashboard [Private]",
+      "productType": "Repositório GitHub",
       "timeline": "02/2024",
       "tag": [
-        "Montague",
+        "Gramática de Montague",
         "Semântica",
         "Implementação"
       ],
-      "about": "Formalização semântica de sentenças pelo Teste de Montague implementada em Agda, inspirado em Zwanziger (2019)."
+      "about": "Inspirada por Zwanziger (2019), esse é um estudo cuja intenção é implementar em Agda, utilizando da modalidade Flat, um framework de semântica computacional da linguagem natural através do arcabouço teórico da Semântica de Montague. Em específico, o repositório trata de fornecer formas lógicas para a interpretação das sentenças do Teste de Montague. Em termos simples, a modalidade Flat é uma característica da linguagem Agda que permite que a Teoria de Tipos de Homotopia seja aplicada computacionalmente para os fins do Teste de Montague. Para ler mais sobre essa modalidade, acesse o endereço a seguir: https://agda.readthedocs.io/en/latest/language/flat.html."
     }, {
       "id": 26,
       "key": "pr26",
-      "title": "Romani-DT: recurso linguístico de línguas rromanés",
+      "title": "Romani-DT",
       "url": "#",
       "productType": "IOT/Dashboard [Private]",
       "timeline": "01/2024",
@@ -240,53 +253,67 @@
   "achievements": [{
     "id": 1,
     "key": "ac1",
-    "title": "Title",
-    "url": "#",
-    "location": "Seattle, USA",
-    "timeline": "06/2015",
+    "title": "LARDAPIDE, Elisa. BASSO, Renato. Sobre a semântica de 'sozinho': uma descrição de suas interpretações. 2024. (No prelo)",
+    "url": "https://drive.google.com/file/d/1VDeRWMnrJRMEftJ1pOGIpUWYuSzv77J9/view?usp=sharing",
+    "location": "São Paulo, Brasil",
+    "timeline": "2024",
     "tag": [
-      "Robotics",
-      "Problem Solving",
-      "Process Automation"
+      "(Anti-)comitatividade",
+      "Semântica",
+      "Pragmática"
     ],
-    "about": "About the achievement"
+    "about": "O item ‘sozinho’ do português brasileiro (PB), assim como suas contrapartes em outras línguas naturais, é pouco explorado na literatura especializada, ainda mais considerando o contexto das pesquisas em semântica formal. Exceções incluem Cisneros et al. (2013), que analisaram o item ‘alone’ do inglês, Moltmann (2004), que sugere um esboço de análise para ‘alone’ ao lidar com o item ‘together’, através de uma abordagem mereológica, e Tsai (2018), que analisa o item exclusivo ‘nanak’ em squliq atayal. Nosso objeto neste artigo é fazer uma primeira descrição semântico-pragmática de ‘sozinho’ (e ‘sozinha’) e identificar as interpretações que esse item apresenta em PB. Essa é uma etapa fundamental para podermos propor uma análise teórica unificada para esse item. Sendo assim, a seção 1 apresenta as possibilidades de interpretação para ‘sozinho’ no PB, e a seção 2 traz alguns testes linguísticos que permitem isolar, através de suas propriedades gramaticais, esses usos. Por sua vez, a seção 3 apresenta um quadro resumo dessas interpretações, que servirá como um guia para uma futura análise de ‘sozinho’, esboçada na seção 4. Finalmente, a Conclusão traz tanto um resumo do caminho aqui percorrido quanto algumas das questões em aberto."
+  }, {
+    "id": 2,
+    "key": "ac2",
+    "title": "LARDAPIDE, Elisa. BASSO, Renato. O que só 'sozinho' faz e o que 'só' faz sozinho. 2024. (No prelo)",
+    "url": "#",
+    "location": "São Paulo, Brasil",
+    "timeline": "2024",
+    "tag": [
+      "(Anti-)comitatividade",
+      "Exclusivos",
+      "Semântica",
+      "Pragmática"
+    ],
+    "about": "O item ‘sozinho’ do português brasileiro (PB), bem como suas contrapartes em outras línguas naturais, é pouco explorado no âmbito das pesquisas em semântica formal. Ainda não há um trabalho conciso na literatura especializada que ofereça uma classificação tipológica para o ‘sozinho’, por exemplo. Exceções seriam os trabalhos de Beaver & Clark (2008) e Coppock & Beaver (2014), que propõem uma esquematização de itens como ‘only’, ‘just’, ‘merely’ e ‘alone’, do inglês, a partir da noção gramatical de exclusividade. Aliás, o item only já foi alvo de um enorme quantidade de pesquisa em semântica formal, que o classifica como uma “partícula de exclusão”, e o que vemos sobre alone são propostas de análise que o tratam de modo análogo a only. Neste artigo, nosso objetivo é apresentar as interpretações ativadas pelos itens ‘sozinho’ e ‘só’ do PB, identificando, através de uma descrição semântico-pragmática, as suas semelhanças e diferenças formais. Nosso principal argumento, depois das análises, é que ‘só’ de fato se comporta semanticamente como um exclusivo, mas não ‘sozinho’, que mesmo, em alguns casos, tendo interpretações próximas ao ‘só’ não faz isso pelo mesmo mecanismo semântico. Sendo assim, a seção 1 apresenta as interpretações possíveis de ‘sozinho’ e ‘só’, e a seção 2 contém uma comparação entre as interpretações ativadas pelos dois itens e testes linguísticos que permitem diferenciá-las. Na sequência, a seção 3 traz uma síntese sobre a noção de exclusividade, justificando as razões de ‘sozinho’ não ser um exclusivo, bem como uma proposta de análise para ‘sozinho’. Por fim, na Conclusão apresentamos resumo do que foi percorrido até então, bem como algumas das questões em aberto."
   }],
-  "blog": [{
+    "blog": [{
     "id": 1,
     "key": "bg1",
-    "title": "Title",
-    "url": "Link",
-    "subtitle": "about",
-    "timeline": "05/06/2018"
+    "title": "",
+    "url": "",
+    "subtitle": "",
+    "timeline": ""
   }],
   "talks": [{
     "id": 1,
     "key": "ta1",
     "title": "LARDAPIDE, Elisa. I Webinário de Estudos Okinawanos, Universidade de São Paulo. 2023.",
     "url": "https://www.youtube.com/live/LcEzrdJsmGc?si=ieVLvBTKrAH03p5R",
-    "subtitle": "Semântica de 'sozinho': uma descrição do okinawano e suas contrapartes.",
+    "subtitle": "Apresentação do trabalho: Semântica de 'sozinho': uma descrição do okinawano e suas contrapartes.",
     "timeline": "2023"
   }, {
     "id": 2,
     "key": "ta2",
-    "title": "LARDAPIDE, Elisa. XVI Seminário de Pesquisas da Pós-Graduação em Linguística, Universidade Federal de São Carlos. 2023.",
+    "title": "XVI Seminário de Pesquisas da Pós-Graduação em Linguística, Universidade Federal de São Carlos. 2023.",
     "url": "https://www.splin.ufscar.br",
-    "subtitle": "Semântica de 'sozinho': uma investigação sobre modificação e (anti-)comitatividade.",
+    "subtitle": "Apresentação do trabalho: Semântica de 'sozinho': uma investigação sobre modificação e (anti-)comitatividade.",
     "timeline": "2023"
   }, {
     "id": 3,
     "key": "ta3",
-    "title": "LARDAPIDE, Elisa. XXVI Semana de Letras e Linguística, Universidade Federal de São Carlos. 2023.",
+    "title": "XXVI Semana de Letras e Linguística, Universidade Federal de São Carlos. 2023.",
     "url": "https://jolesel2023.wixsite.com/jolesel2023",
-    "subtitle": "Sobre a semântica de 'sozinho': modificação, comitatividade e exclusivos.",
+    "subtitle": "Apresentação do trabalho: Sobre a semântica de 'sozinho': modificação, comitatividade e exclusivos.",
     "timeline": "2023"
   }],
   "education": [{
     "id": 5,
     "key": "ed5",
-    "institute": "Universidade Federal de São Carlos",
+    "institute": "Bacharelado em Linguística pela Universidade Federal de São Carlos",
     "url": "https://www.prograd.ufscar.br/cursos/cursos-oferecidos-1/linguistica/linguistica",
-    "level": "Bacharelado em Linguística",
+    "level": "Bacharelado",
     "timeline": "08/2021 - 12/2024",
     "coursework": {
       "Semestre 1": [
@@ -350,7 +377,7 @@
     "url": "https://www.psicoling.thiagomotta.net",
     "from": "Universidade Estadual de Campinas",
     "timeline": "04/2021",
-    "about": "<ul> <li > Estudo introdutório em Psicolinguística. </li> <li > Explorei tópicos sobre cognição e linguagem. </li> <li > Estudo de Sensação, Percepção e Processamento cognitivo. </li></ul>",
+    "about": "<ul> <li > Estudo introdutório em Psicolinguística. </li> <li > Explorei tópicos sobre Cognição e Linguagem. </li> <li > Estudo de Sensação, Percepção e Processamento cognitivo. </li></ul>",
     "complete": true
   }],
   "contributions": [{
@@ -379,19 +406,19 @@
   ],
   "skills": {
     "color": ["", "", "", "", "", "", "", "" ,""],
-    "title": ["Análise Linguística", "Programação e Tecnologias", "Línguas"],
+    "title": ["Teorias & Análises Linguísticas", "Programação & Tecnologias", "Línguas"],
     "data": {
       "0": [{
-        "name": "Semântica Formal",
+        "name": " Semântica Formal ",
         "percent": "90"
       }, {
-        "name": "Pragmática Formal",
+        "name": " Pragmática Formal ",
         "percent": "90"
       }, {
-        "name": "Interface semântico-pragmática",
+        "name": " Interface semântico-pragmática ",
         "percent": "90"
       }, {
-        "name": "Interface semântico-sintática",
+        "name": " Interface semântico-sintática ",
         "percent": "90"
       }],
       "1": [ {
@@ -419,18 +446,18 @@
         "name": "Prolog",
         "percent": "90"
       }],"2": [{
-        "name": "Português Brasileiro",
+        "name": " Português Brasileiro ",
         "percent": "30"
       }, {
-        "name": "Inglês",
+        "name": " Inglês ",
         "percent": "90"
       }, {
-        "name": "Japonês",
+        "name": " Japonês ",
         "percent": "90"
       }]
     },
     "//": [{
-      "name": "Self-Motivated",
+      "name": "",
       "percent": "100"
     }]
   }
