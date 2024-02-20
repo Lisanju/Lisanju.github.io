@@ -1,10 +1,10 @@
 {
   "document": {
-    "author": "Elon musk",
-    "title": "Official Page of Elon musk",
-    "keywords": "Elon musk Author Programmer Developer Designer Entrepreneur Resume CV.",
-    "description": "Welcome to my tiny space on the internet, here I share about my work, life and everything in between.",
-    "language": "English",
+    "author": "Elisa Anju Lardapide",
+    "title": "Página de Elisa Anju Lardapide",
+    "keywords": "Elisa Anju Lardapide Linguista Semanticista Desenvolvedora Pesquisadora Cientista Portfolio CV.",
+    "description": "Boas vindas ao meu site pessoal com portfolio acadêmico.",
+    "language": "Portuguese",
     "charset": "utf-8",
     "robots": "INDEX , FOLLOW",
     "googleSiteVerificatin": "akssdMJ903dfJjfaAh3TehmMjnLSk",
@@ -12,11 +12,11 @@
     "theme": 0
   },
   "og": {
-    "creator":"elon",
-    "title": "Official Page of Elon musk",
+    "creator":"elisa",
+    "title": "Página de Elisa Anju Lardapide",
     "type": "website",
-    "url": "http://Elon musk.github.io",
-    "image": "https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg"
+    "url": "https://lisanju.github.io",
+    "image": "https://drive.google.com/file/d/1LkPWMipTzkVe14CpzfrvDtA7yDrN_XKJ/view?usp=sharing"
   },
   "themes":[
  {
@@ -111,60 +111,60 @@
     "signature": "Regards <br> <b>Elon musk</b>"
   },
   "profile": {
-    "name": "Elon musk",
-    "image": "https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg",
-    "domains": "Engineer | Developer | Designer",
-    "vision": "Write something you believe in",
-    "url": "https://Elon musk.github.io",
+    "name": "Elisa Anju Lardapide",
+    "image": "https://drive.google.com/file/d/1LkPWMipTzkVe14CpzfrvDtA7yDrN_XKJ/view?usp=sharing",
+    "domains": "Semanticista | Linguista Teórica",
+    "vision": "「This sentence is false」",
+    "url": "https://lisanju.github.io",
     "address": {
         "@type": "PostalAddress",
-        "streetAddress": "seattle",
-        "addressLocality": "seattle",
-        "addressRegion": "seattle",
-        "postalCode": "111000",
-        "addressCountry": "usa"
+        "streetAddress": "Rodovia Washington Luís",
+        "addressLocality": "São Carlos",
+        "addressRegion": "São Paulo",
+        "postalCode": "13565-905",
+        "addressCountry": "bra"
     },
-    "email": "mailto:Elon musk@gmail.com",
-    "alumniOf": "University",
-    "birthPlace": "Place",
-    "birthDate": "xxxx.xx.xx",
-    "height": "177cm",
-    "weight": "72kg",
-    "gender": "male",
-    "nationality": "",
+    "email": "mailto:lisanju.contato@gmail.com",
+    "alumniOf": "Universidade Federal de São Carlos",
+    "birthPlace": "Salto",
+    "birthDate": "01.07.2003",
+    "height": "180cm",
+    "weight": "66kg",
+    "gender": "female",
+    "nationality": "brazilian",
     "sameAs":[
-      "https://www.linkedin.com/in/Elon musk/",
-      "https://twitter.com/Elon musk",
-      "https://github.com/Elon musk",
-      "https://facebook.com/Elon musk",
-      "https://www.instagram.com/Elon musk/"
+      "https://www.linkedin.com/in/elisaanjurodrigues/",
+      "https://twitter.com/lis_anju",
+      "https://github.com/Lisanju",
+      "",
+      "https://www.instagram.com/lis_anju/"
     ],
     "link": [{
       "name": "resume",
-      "url": "",
+      "url": "http://lattes.cnpq.br/0674551249513442",
       "icon": "fas fa-file",
-      "label": "Résumé"
+      "label": "Currículo Lattes"
     }, {
       "name": "blog",
-      "url": "/blog",
+      "url": "https://www.instagram.com/lis_anju/",
       "icon": "fas fa-user",
-      "label": "Blog"
+      "label": "Instagram"
     },
      {
       "name": "email",
-      "url": "#",
+      "url": "lisanju.contato@gmail.com",
       "icon": "fas fa-inbox",
-      "label": "Elon musk[at]gmail"
+      "label": "lisanju.contato@gmail.com"
     }, {
       "name": "github",
-      "url": "https://github.com/Elon musk",
+      "url": "https://github.com/Lisanju",
       "icon": "fab fa-github",
-      "label": "github/Elon musk"
+      "label": "GitHub"
     }, {
       "name": "linkedin",
-      "url": "https://www.linkedin.com/in/Elon musk/",
+      "url": "https://www.linkedin.com/in/elisaanjurodrigues/",
       "icon": "fab fa-linkedin-in",
-      "label": "linkedin/in/Elon musk"
+      "label": "LinkedIn"
     }]
   },
   "work": [{
