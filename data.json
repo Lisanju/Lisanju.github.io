@@ -60,7 +60,7 @@
     "display": false,
     "icon": "fas fa-user"
   }, {
-    "title": "work",
+    "title": "",
     "to": "/",
     "display": true,
     "icon": "fas fa-briefcase"
@@ -114,7 +114,7 @@
     "name": "Elisa Anju Lardapide",
     "image": "images/profile.jpeg",
     "domains": "Semanticista | Linguista Teórica",
-    "vision": "「The next sentence is true. The previous sentence is false.」",
+    "vision": "The next sentence is true. The previous sentence is false.",
     "url": "https://lisanju.github.io",
     "address": {
         "@type": "PostalAddress",
@@ -159,7 +159,7 @@
       "label": "Google Scholar"
     }, {
       "name": "email",
-      "url": "lisanju.contato@gmail.com",
+      "url": "mailto:lisanju.contato@gmail.com",
       "icon": "fas fa-inbox",
       "label": "lisanju.contato@gmail.com"
     },
@@ -234,7 +234,7 @@
         "Semântica",
         "Implementação"
       ],
-      "about": "Inspirada por Zwanziger (2019), esse é um estudo cuja intenção é implementar em Agda, utilizando da modalidade Flat, um framework de semântica computacional da linguagem natural através do arcabouço teórico da Semântica de Montague. Em específico, o repositório trata de fornecer formas lógicas para a interpretação das sentenças do Teste de Montague. Em termos simples, a modalidade Flat é uma característica da linguagem Agda que permite que a Teoria de Tipos de Homotopia seja aplicada computacionalmente para os fins do Teste de Montague. Para ler mais sobre essa modalidade, acesse o endereço a seguir: https://agda.readthedocs.io/en/latest/language/flat.html."
+      "about": "Inspirada por Zwanziger (2019), esse é um estudo cuja intenção é implementar em Agda, utilizando da modalidade Flat, um frame de semântica computacional da linguagem natural através do arcabouço teórico da Semântica de Montague. Em específico, o repositório trata de fornecer formas lógicas para a interpretação das sentenças do Teste de Montague. Em termos simples, a modalidade Flat é uma característica da linguagem Agda que permite que a Teoria de Tipos de Homotopia seja aplicada computacionalmente para os fins do Teste de Montague. Para ler mais sobre essa modalidade, acesse o endereço a seguir: https://agda.readthedocs.io/en/latest/language/flat.html."
     }, {
       "id": 26,
       "key": "pr26",
@@ -315,7 +315,7 @@
     "url": "https://www.prograd.ufscar.br/cursos/cursos-oferecidos-1/linguistica/linguistica",
     "level": "Bacharelado",
     "timeline": "08/2021 - 12/2024",
-    "coursework": {
+    "course": {
       "Semestre 1": [
         "Introdução aos Estudos Linguísticos",
         "Linguagem, Sociedade e História",
