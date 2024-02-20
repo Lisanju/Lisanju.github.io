@@ -108,7 +108,7 @@
                             attrs: {
                                 id: "menuTitle"
                             }
-                        }, [t._v("About")]), t._v(" "), n("div", {
+                        }, [t._v("Tópicos")]), t._v(" "), n("div", {
                             staticClass: "fas fa-bars menu-icon",
                             attrs: {
                                 id: "menuIcon"
