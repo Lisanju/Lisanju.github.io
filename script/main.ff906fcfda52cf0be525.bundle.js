@@ -631,7 +631,7 @@
             P = n(8);
         s.a.use(c.a);
         const M = [{
-            path: "/",
+            path: "/ocupação",
             name: "Ocupação",
             component: T
         }, {
