@@ -635,13 +635,6 @@
             name: "Ocupação",
             component: T
         }, {
-            path: "/",
-            name: "Ocupação",
-            component: ComponenteOcupação
-        }, {
-            path: "/ocupação",
-            redirect: "/" 
-        },
             path: "/publicações",
             name: "Publicações",
             component: v
