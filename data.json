@@ -431,6 +431,37 @@
       "timeline": "2022 - Atualmente"
     }
   ],
+  "interesses": [{
+    "key": "li11",
+    "url": "#",
+    "icon": "",
+    "title": "Modificadores de comitatividade e exclusividade no Sintagma Nominal"
+  }, {
+    "key": "li10",
+    "url": "#",
+    "icon": "",
+    "title": "Expressividade em honoríficos e palavrões"
+  }, {
+    "key": "li9",
+    "url": "#",
+    "icon": "",
+    "title": "Gramática de Montague"
+  }, {
+    "key": "li8",
+    "url": "#",
+    "icon": "",
+    "title": "Implementação computacional de fórmulas semânticas"
+  }, {
+    "key": "li7",
+    "url": "#",
+    "icon": "",
+    "title": "Origem e evolução da linguagem"
+  }, {
+    "key": "li6",
+    "url": "#",
+    "icon": "",
+    "title": "Linguagens formais e de programação"
+  }],
   "habilidades": {
     "color": ["", "", "", "", "", "", "", "" ,""],
     "title": ["Teorias & Análises Linguísticas", "Programação & Tecnologias", "Línguas"],
