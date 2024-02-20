@@ -477,7 +477,7 @@
                     n = t._self._c || e;
                 return n("div", [t.formação ? n("span", [n("div", {
                     staticClass: "break-heading"
-                }, [t._v("Formação [" + t._s(t.formação.length) + "]")]), t._v(" "), t._l(t.formação, function(t) {
+                }, [t._v("Formação Principal[" + t._s(t.formação.length) + "]")]), t._v(" "), t._l(t.formação, function(t) {
                     return n("card", {
                         key: t.key,
                         attrs: {
@@ -486,7 +486,7 @@
                     })
                 })], 2) : t._e(), t._v(" "), t.courses ? n("span", [n("div", {
                     staticClass: "break-heading"
-                }, [t._v("Online Cources [" + t._s(t.courses.length) + "]")]), t._v(" "), t._l(t.courses, function(t) {
+                }, [t._v("Extensão[" + t._s(t.courses.length) + "]")]), t._v(" "), t._l(t.courses, function(t) {
                     return n("card", {
                         key: t.key,
                         attrs: {
@@ -619,7 +619,7 @@
                     e = this._self._c || t;
                 return e("div", [e("div", {
                     staticClass: "break-heading"
-                }, [this._v("Work Experience [" + this._s(this.ocupação.length) + "]")]), this._v(" "), this._l(this.ocupação, function(t) {
+                }, [this._v("Ocupação atual [" + this._s(this.ocupação.length) + "]")]), this._v(" "), this._l(this.ocupação, function(t) {
                     return e("card", {
                         key: t.key,
                         attrs: {
