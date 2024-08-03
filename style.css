@@ -55,6 +55,7 @@ nav ul {
 	padding: 0 30%;
 	display: flex;
 	list-style: none;
+	gap: 10px;
 }
 
 nav ul li {
